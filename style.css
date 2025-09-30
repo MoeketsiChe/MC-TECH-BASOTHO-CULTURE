@@ -1,0 +1,391 @@
+html{
+  font-size: 1rem;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgba(10, 77, 89, 1);
+}
+.hat{
+  width: 5rem;
+  height: 5rem;
+  margin: -5.3rem 0rem;
+   text-align: start;
+}
+  
+ul{
+  font-family: arial black;
+  position: static;
+  margin: -1rem;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: end;
+  background: rgb(236, 239, 239);
+  padding: 2rem;
+  gap: 6rem;
+}
+ul li{    
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  background: rgba(235, 4, 77, 0);
+  color: rgb(5, 25, 42);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.2rem;
+  font-family: arial;
+}
+.H{
+  color: aliceblue  ;
+  border: 0.1rem solid black;
+  background: rgb(1, 38, 43);
+}
+
+.T{
+  text-decoration: none;
+  background: rgba(4, 227, 235, 0.014);
+  color: rgb(3, 24, 43);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  font-family: arial;
+   transition: all 1s ease-in-out;
+}
+.T:hover{
+   box-shadow: 0.2rem 0.5rem 1rem rgb(3, 84, 106);
+  background: rgb(249, 12, 75);
+  color: rgb(4, 20, 20);
+  transform: scaleX(5);
+}
+.M{
+  text-decoration: none;
+  background: rgba(2, 20, 24, 0);
+  color: rgb(1, 8, 15);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  font-family: arial;
+   transition: all 1s ease-in-out;
+
+}
+.M:hover{
+ box-shadow: 0.2rem 0.5rem 1rem rgb(3, 84, 106);
+  background: rgb(249, 12, 75);
+   color: rgb(20, 33, 33);
+  transform: scaleX(5);
+}
+.A{
+  text-decoration: none;
+  background: rgba(4, 227, 235, 0.012);
+  color: rgb(6, 20, 32);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  font-family: arial;
+   transition: all 1s ease-in-out;
+}
+.A:hover{
+   box-shadow: 0.2rem 0.5rem 1rem rgb(3, 84, 106);
+  background: rgb(249, 12, 75);
+   color: rgb(9, 43, 43);
+  transform: scaleX(5);
+}
+.C{
+  text-decoration: none;
+  background: rgba(4, 220, 235, 0);
+  color: rgb(4, 17, 29);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  font-family: arial;
+   transition: all 1s ease-in-out;
+   
+}
+.C:hover{
+  box-shadow: 0.2rem 0.5rem 1rem rgb(3, 84, 106);
+  background: rgb(249, 12, 75);
+   color: rgb(2, 32, 32);
+  transform: scaleX(5);
+}
+h1{
+  margin: 3rem 2rem;
+  text-align:start;
+  font-family: 'Times New Roman';
+  color: rgb(234, 229, 229);
+}
+.web{
+  margin: 0rem 5rem;
+  color: rgb(6, 156, 186);
+}
+.morena{
+  filter: drop-shadow(0.6rem 0.5rem 2rem rgba(1, 30, 35, 0.595));
+   margin: 1rem 2rem;
+   width: 25rem;
+   height: 30rem;
+   border-radius: 50%;
+}
+article h1{
+  color: aliceblue;
+}
+article{
+   font-size: 1rem;
+  text-align: center;
+  float:right;
+  background: rgba(2, 86, 94, 0.032);
+  color: aliceblue;
+  margin: -40rem 2rem;
+  border-bottom-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  padding: 1rem;
+  border: 0.1rem solid rgba(3, 37, 44, 0.221);
+  transition: all 2s ease-in-out ;
+}
+article:hover{
+   font-weight: bolder;
+  font-size: 1.1rem;
+  color: rgb(233, 241, 242);
+  filter: drop-shadow(0.3rem 0.5rem 1rem darkcyan);
+  background: rgba(194, 6, 53, 0.771);
+   transform: scaleZ(3)
+}
+aside{
+  font-size: 1rem;
+  text-align: center;
+  float:right;
+  background: rgba(1, 30, 36, 0.088);color: rgb(238, 246, 246);
+  margin: -20rem 2rem;
+   border-bottom-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  padding: 1rem;
+  border: 0.1rem solid rgba(3, 44, 50, 0.221);
+  transition: all 2s ease-in-out ;
+}
+aside:hover{
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: rgb(233, 241, 242);
+  filter: drop-shadow(0.3rem 0.5rem 1rem darkcyan);
+  background: rgba(194, 6, 53, 0.771);
+   transform: scaleZ(3)
+}
+img{
+  width: 1rem;height: 1rem;
+  padding: 1rem;margin: 1rem;
+}
+.log{
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  color: rgb(7, 77, 91);
+}
+form{
+  display: grid;
+ background: rgba(232, 235, 235, 0.838);
+ margin: 3rem;
+ margin-left: 29rem;
+ margin-right: 40rem;
+ border: 0.001rem solid rgba(5, 93, 106, 0.833)  ;
+ border-radius: 0.5rem;
+ filter: drop-shadow(0.2rem 0.3rem 0.3rem rgb(241, 8, 12));
+ transition: all 2s ease-in;
+}
+form:hover{
+  background: rgba(81, 168, 176, 0.686);
+  transform: scaleX(1);
+}
+form input{
+  text-align: center;
+   border: 0.1rem solid rgb(6, 94, 106,0.911);
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  background: rgb(221, 213, 213);
+  border: 0.3rem salmon;
+  padding: 0.3rem;
+  margin: 1rem;
+  margin-left: 5rem;
+  margin-right: 8rem;
+}
+#message{
+  font-family: fantasy;
+  background: rgba(240, 244, 244, 0.912);
+  padding: 2rem;
+  text-align: center;
+  color: rgb(4, 61, 62);
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 1s ease-in;
+}
+#message:hover{
+  transform: scaleY(1);
+  background:rgba(12, 165, 165, 0.749);
+}
+.Submit{
+  padding: 0rem 1rem;
+  cursor: pointer;
+  margin: 1rem 10rem;
+  background: rgba(7, 18, 21, 0.433);
+  font-size: 0.9rem;
+  color: rgb(240, 244, 247);
+  border: 0.1rem solid rgba(114, 236, 250, 0.115);
+  border-radius: 0.2rem;transition: all 1ms ease;
+}
+.Submit:hover{
+  background: gray;
+  color: rgb(4, 50, 50);
+}
+.radio{
+  text-align: center;
+  text-decoration: underline;
+}
+#text{
+  display: block ;
+  color: aliceblue;
+  background: rgb(2, 72, 77);
+}
+#section{
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat();
+}
+.Clothing{
+  text-align: center;
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 1.4rem;
+  background: salmon;
+  padding: 1rem;
+}
+.QR{
+  margin: 1rem;
+  width: 15rem;height: 15rem;margin: 1rem 1rem;
+  background: rgb(3, 49, 49);
+  border-radius: 0.5rem;
+  border: 0.2rem groove rgb(218, 10, 62);
+}
+#Tradition{ 
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: aliceblue;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.751);
+}
+#Video{
+  display: flex;
+  gap: 8rem;
+  padding: 1rem;
+  margin: 1.3rem 2rem 0rem 0rem;
+  background: rgba(199, 210, 211, 0.132);
+  border-radius: 1rem;
+  border: 0.2rem solid rgba(226, 10, 75, 0);
+  transition: all 1.2s ease-in;
+}
+#Video:hover{
+  font-size: 1.4rem;
+  background: rgb(2, 65, 72);
+  transform: translate(1rem,1rem);
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(2, 99, 97)  );
+}
+.vd{
+  margin-left: 1rem;
+    width: 15rem;height: 20rem;
+    border-radius: 0.6rem;
+    border: 0.2rem solid rgb(191, 198, 199);
+    background: rgb(3, 75, 78);
+    transition: all 1s   ease-in-out;
+}
+.vd:hover{
+  font-size: 1.2rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem rgba(177, 10, 27, 0.252));
+   transform: scaleX(1.25);
+}
+#audio{
+  display: flex;
+  background: rgba(2, 41, 50, 0.596);
+  margin: 2rem;
+  border-radius: 1rem;
+}
+.ad{
+  margin: 1rem;padding: 2rem;
+  transition: all 0.6s ease-in-out;
+  transition: all 1.6s ease-out;
+
+}
+.ad:hover{
+    box-shadow: 0.2rem 0.2rem 0.3rem red;
+  transform: translate(1rem,0.7rem);
+}
+.music{
+  color: aliceblue;
+  text-align: center;
+  background: rgb(198, 5, 63);
+  border-radius: 1rem;
+  padding: 1rem;margin: 2rem;
+  text-decoration: underline;
+}
+#XT{
+  background: rgb(2, 37, 37);
+  margin: 0rem 2rem;
+  padding: 2rem;
+  border-radius: 0rem;
+}
+#thethana{
+  color: aliceblue;
+  padding: 0rem;
+  margin: 0rem;
+  border: 0.2rem rgba(239, 15, 56, 0.068) solid;
+}
+.TH{
+  background: rgb(226, 3, 74);
+  color: aliceblue;
+  text-align: center;
+  margin: 2rem 2rem 0rem;padding: 1rem;
+}
+.TX{
+  margin: 0rem;
+  padding: 0rem;
+  width: 12rem;height: 15rem;
+  border: 0.1rem solid rgb(224, 9, 59);
+  border-radius: 1rem ;
+  transition: all 1s ease-in-out;
+}
+.TX:hover{
+  transform: translate(1rem,0.4rem);
+}
+#CT{
+  background: rgb(231, 7, 74);
+  margin: 0rem 1rem;
+}
+.CR{
+  margin: 2rem 1rem 0rem;padding: 1rem;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  border: 0.2rem rgba(239, 15, 56, 0.068) solid;
+  background: rgb(2, 35, 42);
+}
+#ART{
+  color: aliceblue;
+  padding: 0rem;
+  margin: 0rem;
+  border: 0.2rem rgba(239, 15, 56, 0.068) solid;
+}
+.LINK{
+  background: rgb(231, 7, 73);
+  padding: 0.4rem;
+  margin: 1rem 40rem;
+  color: aliceblue;
+}
+.JK{
+  background: rgb(2, 35, 42);
+  color: azure;
+   padding: 0.4rem;
+  margin: 1rem 40rem 2rem;
+}
+footer{
+  font-family: fantasy;
+  text-align: center;
+  background: whitesmoke;
+  padding: 0.5rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
